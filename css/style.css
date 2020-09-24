@@ -50,3 +50,32 @@ body{
     color: #ffffff;
     font-size: 1.125em;
 }
+
+/* Intro */
+
+.intro{
+    background: url('../img/bg-intro.jpg') no-repeat center center;
+    background-size: cover; /* pegando 100% da imagem no background e responsivo */
+    padding: 150px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.intro h1{
+    text-transform: uppercase; /*deixando  texto em maiusculo */
+    font-size: 3em;
+}
+
+.intro h1::after{       /* criando o separdos */
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #ffffff;
+    margin: 10px auto;
+}
+
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
